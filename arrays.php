@@ -14,19 +14,19 @@ $newContent = array(
     );
 
 for($i=0; $i<3; $i++) {
-    echo $i."<br>";
-    echo "Hello, my name is ".$newContent[$i][0]."<br>";
-    echo "I am ".$newContent[$i][1]." years old<br>";
-    echo "My favorite color is ".$newContent[$i][2]."<br>";
+   // echo $i."<br>";
+//    echo "Hello, my name is ".$newContent[$i][0]."<br>";
+  //  echo "I am ".$newContent[$i][1]." years old<br>";
+//    echo "My favorite color is ".$newContent[$i][2]."<br>";
 }
 
-echo "<select>";
+//echo "<select>";
     for($i=0; $i<3; $i++) {
-        echo "<option>".$newContent[$i][0]."</option>";
+  //      echo "<option>".$newContent[$i][0]."</option>";
     }
-echo "</select>";
+//echo "</select>";
 
-echo "<br><br>";
+//echo "<br><br>";
 
 // associative arrays
 
@@ -36,7 +36,9 @@ $myContent = array(
     "color"=>"green"
     );
 
-echo $myContent["name"];
+//echo $myContent["name"]."<br><br>";
+
+/* associative multidimensional array */
 
 $myContent = array(
     "Jason"=>array(
@@ -51,6 +53,56 @@ $myContent = array(
         "age"=>"16",
         "color"=>"purple"
         )    
-    )
-    
+    );
+
+//echo $myContent["Sterling"]["age"]."<br><br>";
+
+/* indexed multidimensional associative array */
+
+$myContent = array(
+    array(
+        "name"=>"Jason",
+        "age"=>"48",
+        "color"=>"green"
+        ),
+    array(
+        "name"=>"Jacob",
+        "age"=>"17",
+        "color"=>"magneto"
+        ),
+    array(
+        "name"=>"Sterling",
+        "age"=>"16",
+        "color"=>"purple"
+        )    
+    );
+
+//echo $myContent[1]["age"]."<br>";
+
+$myNav = array(
+    array(
+        "title"=>"Home",
+        "page"=>"index.php"
+        ),
+    array(
+        "title"=>"Contact",
+        "page"=>"contact.php"
+        ),
+    array(
+        "title"=>"About",
+        "page"=>"about.php"
+        )
+    );
+
+// homework: create a navigation from the $myNav array using a for loop
+// result should look like the nav.php file
+
+echo "<ul>";
+
+for ($i=0;$i<3;$i++){
+    echo "<li><a href='".$myNav[$i]['page']."'>".$myNav[$i]['title']."</a></li>";
+}
+
+echo "</ul>";
+
 ?>
