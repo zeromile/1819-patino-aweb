@@ -97,12 +97,6 @@ $myNav = array(
 // homework: create a navigation from the $myNav array using a for loop
 // result should look like the nav.php file
 
-echo "<ul>";
 
-for ($i=0;$i<3;$i++){
-    echo "<li><a href='".$myNav[$i]['page']."'>".$myNav[$i]['title']."</a></li>";
-}
-
-echo "</ul>";
 
 ?>
