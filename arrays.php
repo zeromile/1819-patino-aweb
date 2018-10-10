@@ -113,7 +113,7 @@ for($i=0; $i<$myNavCount; $i++){
     echo "<li class='nav-item'><a class='nav-link' href='".$myNav[$i]['page']."'>".$myNav[$i]['title']."</a></li>";
     }
 
-echo "</ul>";  // ends the unirdered list </ul>
+echo "</ul>";  // ends the unordered list </ul>
 
 
 ?>
