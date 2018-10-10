@@ -91,12 +91,29 @@ $myNav = array(
     array(
         "title"=>"About",
         "page"=>"about.php"
+        ),
+    array(
+        "title"=>"Bob",
+        "page"=>"bob.php"
         )
     );
 
 // homework: create a navigation from the $myNav array using a for loop
 // result should look like the nav.php file
 
+$myNavCount = count($myNav);
+
+
+echo "<ul class='nav'>"; // starts the unordered list <ul>
+
+for($i=0; $i<$myNavCount; $i++){
+    /*  this will echo out each list 
+        item <li> using content from
+        the $myNav array. */
+    echo "<li class='nav-item'><a class='nav-link' href='".$myNav[$i]['page']."'>".$myNav[$i]['title']."</a></li>";
+    }
+
+echo "</ul>";  // ends the unirdered list </ul>
 
 
 ?>
