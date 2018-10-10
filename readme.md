@@ -1,4 +1,4 @@
-###Patiño Advanced Web class code repo###
+# Patiño Advanced Web class code repo #
 
-##Dailies (in reverse order)##
+## Dailies (in reverse order) ##
 
