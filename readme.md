@@ -2,6 +2,9 @@
 ### Dailies (in reverse order) ###
 
 ## Week 09 ##
+**Thursday**
+Showed how to do the clock-in from Wednesday. Cleaned up the content.php file in preparation for all site content to live in an array
+
 **Wednesday**
 Short period - Clock-in: Convert the navigation from `nav.php` to an array inside of `content.php` — then echo the nav out in `nav.php` (replacing the existing html in `nav.php`)
 
