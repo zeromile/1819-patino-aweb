@@ -101,7 +101,7 @@ $myNav = array(
 // homework: create a navigation from the $myNav array using a for loop
 // result should look like the nav.php file
 
-$myNavCount = count($myNav);
+$myNavCount = count($myNav); // counts the number of top level arrays in the multidimensional array
 
 
 echo "<ul class='nav'>"; // starts the unordered list <ul>

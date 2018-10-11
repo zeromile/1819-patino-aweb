@@ -33,5 +33,6 @@ $allContent = array(
         "title"=>"Contact",
         "content"=>"Contact sdfkjhkljhs jhsdfljh sdfj df"
         )
-    )
+    );
+ 
 ?>
