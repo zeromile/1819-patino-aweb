@@ -1,7 +1,14 @@
-<ul class="nav">
-    <li class="nav-item"><a class="nav-link" href="template.php?page=home">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="template.php?page=about">About</a></li>
-    <li class="nav-item"><a class="nav-link" href="template.php?page=contact">Contact</a></li>
-    <li class="nav-item"><a class="nav-link" href="template.php?page=buy">Buy Now!</a></li>
-    <li class="nav-item"><a class="nav-link" href="template.php?page=bob">Bob</a></li>
-</ul>
+<?php
+
+echo "<ul class='nav'>"; // starts the unordered list <ul>
+
+for($i=0; $i<$myNavCount; $i++){
+    /*  this will echo out each list 
+        item <li> using content from
+        the $myNav array. */
+    echo "<li class='nav-item'><a class='nav-link' href='".$myNav[$i]['page']."'>".$myNav[$i]['title']."</a></li>";
+    }
+
+echo "</ul>";  // ends the unordered list </ul>
+
+?>
