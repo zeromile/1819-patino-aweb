@@ -17,7 +17,7 @@ $allContent = array(
         "title"=>"Contact",
         "content"=>"Contact content"
         )
-    )
+    );
 
 $myNav = array(
     array(
