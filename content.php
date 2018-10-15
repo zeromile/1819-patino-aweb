@@ -22,19 +22,19 @@ $allContent = array(
 $myNav = array(
     array(
         "title"=>"Home",
-        "page"=>"index.php"
+        "page"=>"home"
         ),
     array(
         "title"=>"Contact",
-        "page"=>"contact.php"
+        "page"=>"contact"
         ),
     array(
         "title"=>"About",
-        "page"=>"about.php"
+        "page"=>"about"
         ),
     array(
-        "title"=>"Bob",
-        "page"=>"bob.php"
+        "title"=>"Buy",
+        "page"=>"buy"
         )
     );
 

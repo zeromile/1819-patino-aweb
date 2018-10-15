@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <?php echo $home; ?>
+                <?php echo "This works"; ?>
             </div>
         </div>
     </div>

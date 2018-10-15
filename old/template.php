@@ -6,7 +6,6 @@
     $myTitle = $allContent[$thisPage]["title"];
     
     $myContent = $allContent[$thisPage]["content"];
-    
 ?>
 <!DOCTYPE html>
 <html lang="en">
