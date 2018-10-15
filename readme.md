@@ -2,6 +2,9 @@
 ### Dailies (in reverse order) ###
 
 ## Week 09 ##
+**Friday**
+Organized files, showed how to create .htaccess file and redirect all files to index.php
+
 **Thursday**
 Showed how to do the clock-in from Wednesday. Cleaned up the content.php file in preparation for all site content to live in an array
 
