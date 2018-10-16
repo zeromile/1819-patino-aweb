@@ -5,7 +5,7 @@
 **Tuesday**
 Corrected errors from Monday.
 
-** Monday **
+**Monday**
 Edit .htaccess to exclude image,css,and js files from the redirect. Edited index.php to grab the URI and check against the content array and load correct content accordingly.
 
 ## Week 09 ##
