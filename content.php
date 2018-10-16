@@ -3,7 +3,7 @@
 $allContent = array(
     "home"=>array(
         "title"=>"Home",
-        "content"=>"This is the content content"
+        "content"=>"This is the content page"
         ),
     "about"=>array(
         "title"=>"About",
@@ -15,7 +15,7 @@ $allContent = array(
         ),
     "contact"=>array(
         "title"=>"Contact",
-        "content"=>"Contact content"
+        "content"=>"Contact content...we should really say more"
         )
     );
 

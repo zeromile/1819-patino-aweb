@@ -1,6 +1,10 @@
 # Patiño Advanced Web class code repo #
 ### Dailies (in reverse order) ###
 
+## Week 10 ##
+** Monday **
+Edit .htaccess to exclude image,css,and js files from the redirect. Edited index.php to grab the URI and check against the content array and load correct content accordingly.
+
 ## Week 09 ##
 **Friday**
 Organized files, showed how to create .htaccess file and redirect all files to index.php
