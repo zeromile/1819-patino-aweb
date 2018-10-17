@@ -2,6 +2,9 @@
 ### Dailies (in reverse order) ###
 
 ## Week 10 ##
+**Wednesday**
+Installed Git on Cloud9 week08 project. Edited exclude file to exclude .* and php.ini and include .htacccess.
+
 **Tuesday**
 Corrected errors from Monday.
 
