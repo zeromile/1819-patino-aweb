@@ -2,6 +2,9 @@
 ### Dailies (in reverse order) ###
 
 ## Week 10 ##
+**Thursday**
+Finished setting up C9 SSH key in GitHub. Performed our first commit and push.
+
 **Wednesday**
 Installed Git on Cloud9 week08 project. Edited exclude file to exclude .* and php.ini and include .htacccess.
 
